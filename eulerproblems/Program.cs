@@ -46,7 +46,7 @@ namespace eulerproblems
                 second = newTerm;
             }
 
-            Console.WriteLine("The answer is " + sum);
+            Console.WriteLine(sum);
         }
     }
 }
