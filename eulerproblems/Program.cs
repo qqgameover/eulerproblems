@@ -61,12 +61,7 @@ namespace eulerproblems
             for (b = 2; a > 1; b++)
                 if (a % b == 0)
                 {
-                    int x = 0;
-                    while (a % b == 0)
-                    {
-                        a /= b;
-                        x++;
-                    }
+                    while (a % b == 0) a /= b;
                     intList.Add(b);
                 }
             Console.WriteLine(intList.Max());
